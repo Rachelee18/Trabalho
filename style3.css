@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(93deg, #ffc0e2 0%, rgb(22, 10, 158) 100%) fixed;
+    margin: auto;
+    width: 100vw;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.divcenter{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+#container{
+    top: 5px;
+    width: 305px;
+    height: 650px;
+    background-image: linear-gradient(93deg, #ae83cb 0%, rgb(103,74,181) 100%);
+    position: absolute;
+    padding: 50px;
+    border-radius: 40px;
+
+    /*Shadow*/
+    box-shadow: 15px 45px 55px 10px rgba(1, 1, 3, 0.4);
+}
+
+
+.inputbox{
+    position: absolute;
+    width: 300px;
+}
+
+.input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 100%;
+    color: white;
+}
+
+.input:focus ~ .labelinput,
+.input:valid ~ .labelinput{
+    top: -20px;
+    font-size: 13px;
+    color: rgb(216, 168, 246);
+}
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    color: white;
+}
+
+h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0px;
+}
+
+h3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    justify-content: center;  
+    align-items: center; 
+    display: flex;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    justify-content: center;  
+    align-items: center; 
+    display: flex;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.have{
+    margin-bottom: 30px;
+}
+
+#h2{
+    font-size: 15px;
+    top: 5px;
+    margin-top: 5px;
+}
+
+#born{
+    width: 300px;
+    border-radius: 5px;
+    border-color: #ffc0e2;
+    height: 30px;
+    color: white;
+    background: none;
+}
+
+#age{
+    width: 297px;
+    border-radius: 5px;
+    border-color: #ffc0e2;
+    height: 25px;
+    color: white;
+    background: none;
+}
+
+#sel{
+    width: 305px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #ffc0e2;
+    margin: 0px;
+    color: white;
+    background: none;
+}
+
+#button{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center; 
+    width: 320px;
+}
+
+.Button{
+    background-color: white;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 300px;
+    height: 30px;
+    color: rgb(162, 85, 209);
+}

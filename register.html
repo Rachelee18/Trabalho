@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistration</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div class="divcenter">
+        <div id="container">
+            <h1>Registration</h1>
+            <p class="have">Have an account?<a href="index.html">&nbsp;Sign in</a></p>
+            <form action="save.php" method="post">
+                <div class="inputbox">
+                    <input type="text" name="name" id="name" class="input" required>
+                    <label for="name" class="labelinput">Your full name</label>
+                </div><br><br><br>
+                <div class="inputbox">
+                    <input type="text" name="resgistration" id="resgistration" class="input" required>
+                    <label for="resgistration" class="labelinput">Resgistration number</label>
+                </div><br><br><br>
+                <div class="inputbox">
+                    <input type="text" name="email" id="email" class="input" required>
+                    <label for="email" class="labelinput">Email ID</label>
+                </div><br>
+            </form>
+            <br>
+            <form action="save.php" method="post">
+                <div id="box">
+                    <h3>Personal Data</h3>
+                    <div class="inputbox">
+                        <label for="born">Born:</label><br>
+                        <input type="date" name="born" id="born" ><br>
+                    </div>
+                    <br><br><br>
+                    <div class="inputbox">
+                        <label for="age">Age:</label><br>
+                        <input type="number" name="age" id="age" step="1"><br>
+                    </div><br>
+                    <br><br><br>
+                    <p id="h2">Sex:</p>
+                    <div class="box">
+                        <input type="radio" name="sexo" id="sexo" checked>
+                        <label for="sexo">Masculine</label>
+                        <input type="radio" name="sexo" id="sexo">
+                        <label for="sexo">Female</label>
+                        <input type="radio" name="sexo" id="sexo">
+                        <label for="sexo">Not inform</label>
+                    </div>
+                    <br>
+                    <p id="h2">What kind of music do you like ?</p>
+                    <label for="sel">Select:</label><br>
+                    <select name="sel" id="sel">
+                        <optgroup label="Type of music">
+                            <option value="Country">Country</option>
+                            <option value="Hip-Hop">Hip-Hop</option>
+                            <option value="Classic">Classic</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <br>
+                
+                <div>
+                    <input type="checkbox" name="yep" id="yep" required>
+                    <label for="yep">I have read and agree with the terms</label>
+                </div>
+                <div id="button">
+                    <input type="submit" value="Enviar" class="Button">
+                </div>
+                
+                <div id="button">
+                <input type="reset" value="Limpar" class="Button">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
