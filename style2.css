@@ -81,12 +81,11 @@ h1{
     border-radius: 15px;
     font-size: 15px;
     position: absolute;
-    width: 100px;
+    width: 254px;
     height: 30px;
     color: rgb(162, 85, 209);
     top: 320px;
-    left: 36%;
-    transform: (-50%, -50%);
+
 }
 
 a{
