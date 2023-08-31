@@ -19,10 +19,14 @@ body{
     
 }
 
+form{
+    width: 305px;
+}
+
 #container{
     top: 5px;
     width: 305px;
-    height: 650px;
+    height: 700px;
     background-image: linear-gradient(93deg, #ae83cb 0%, rgb(103,74,181) 100%);
     position: absolute;
     padding: 50px;
@@ -137,12 +141,19 @@ p{
     background: none;
 }
 
+.checkbox{
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
 #button{
     display: flex;
-    margin: 0px;
+    margin: auto;
     justify-content: center;
     align-items: center; 
-    width: 320px;
+    gap: 10px;
+    width: 305px;
+    height: 40px;
 }
 
 .Button{
@@ -150,7 +161,7 @@ p{
     border: 0px;
     border-radius: 15px;
     font-size: 15px;
-    width: 300px;
+    width: 305px;
     height: 30px;
     color: rgb(162, 85, 209);
 }
